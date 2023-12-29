@@ -1,0 +1,2 @@
+AsteRogue is an Asteroids-based Roguelite written in C++ utilizing the SFML library.
+Built with CMake, SFML isn't needed on the build system as it is linked in by CMake
