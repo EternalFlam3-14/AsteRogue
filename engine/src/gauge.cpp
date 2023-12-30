@@ -1,6 +1,6 @@
 #include <string>
 
-#include "gauge.h"
+#include <gauge.h>
 
 Gauge::Gauge(sf::Font &font)
 {

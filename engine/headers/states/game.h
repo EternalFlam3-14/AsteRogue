@@ -6,10 +6,10 @@
 
 #include <SFML/Graphics.hpp>
 
-#include "background.h"
-#include "state.h"
-#include "player.h"
-#include "gauge.h"
+#include <background.h>
+#include <state.h>
+#include <player.h>
+#include <gauge.h>
 
 class Game : public State
 {

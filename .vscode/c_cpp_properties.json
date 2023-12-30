@@ -4,7 +4,9 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/build/_deps/sfml-src/include",
-                "${workspaceFolder}/engine/headers"
+                "${workspaceFolder}/engine/headers",
+                "${workspaceFolder}/engine/headers/components",
+                "${workspaceFolder}/engine/headers/states"
             ],
             "defines": [
                 "_DEBUG",

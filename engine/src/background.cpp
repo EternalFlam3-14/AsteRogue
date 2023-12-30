@@ -1,6 +1,4 @@
-
-
-#include "background.h"
+#include <background.h>
 
 
 bool Background::init(sf::Texture &backgroundtexture, sf::RenderWindow &window)

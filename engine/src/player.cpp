@@ -2,7 +2,7 @@
 #include <cmath>
 #include <string>
 
-#include "Player.h"
+#include <player.h>
 
 Player::Player(sf::Texture &ptexture) : texture(std::move(ptexture))
 {

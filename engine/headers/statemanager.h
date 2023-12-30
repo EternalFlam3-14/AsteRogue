@@ -4,7 +4,6 @@
 #include <memory>
 #include <map>
 
-#include <utility.hpp>
 #include <states.h>
 
 class StateManager

@@ -6,6 +6,8 @@
 
     set(ENGINE_DIR ${CMAKE_SOURCE_DIR}/engine)
     set(ENGINE_HEADER_DIR ${ENGINE_DIR}/headers)
+    set(COMPONENTS_HEADER_DIR ${ENGINE_HEADER_DIR}/components)
+    set(STATES_HEADER_DIR ${ENGINE_HEADER_DIR}/states)
     set(EXTERNAL_DIR ${CMAKE_SOURCE_DIR}/external)
     set(SOURCE_DIR ${CMAKE_SOURCE_DIR}/src)
 
@@ -21,7 +23,11 @@
     
     add_subdirectory(${ENGINE_DIR})
 
-    include_directories(${ENGINE_HEADER_DIR})
+    include_directories(
+        ${ENGINE_HEADERS_DIR}
+        ${COMPONENTS_HEADER_DIR}
+        ${STATES_HEADER_DIR}
+    )
 
     # Gather source files and build executable from them
     aux_source_directory(${SOURCE_DIR}  DIR_SRCS)

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "state.h"
+#include <state.h>
 
 bool State::pollWindowing(sf::Event &event)
 {

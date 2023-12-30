@@ -3,7 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 
-#include "statemanager.h"
+#include <statemanager.h>
 
 
 class App

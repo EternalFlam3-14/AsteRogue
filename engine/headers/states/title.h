@@ -1,7 +1,7 @@
 #ifndef TITLE_STATE_H
 #define TITLE_STATE_H
 
-#include "state.h"
+#include <state.h>
 
 class Title : public State
 {

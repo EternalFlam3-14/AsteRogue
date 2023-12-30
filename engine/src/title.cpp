@@ -1,7 +1,7 @@
 
 #include <iostream>
 
-#include "title.h"
+#include <title.h>
 
 bool Title::init()
 {
